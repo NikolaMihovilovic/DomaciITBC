@@ -1,7 +1,8 @@
 package Sreda;
 
 public class Square extends Shape {
-    private double a;
+    private int a;
+    private int i;
     public Square(String name, int i, int a) {
         super(name);
         this.i = i;
