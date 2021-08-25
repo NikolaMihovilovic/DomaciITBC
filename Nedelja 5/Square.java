@@ -1,6 +1,6 @@
 package Sreda;
 
-public class Square extends Shape {
+public class Square extends Rectangle {
     private int a;
     private int i;
     public Square(String name, int i, int a) {
