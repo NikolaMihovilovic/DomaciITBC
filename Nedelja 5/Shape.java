@@ -20,7 +20,7 @@ public abstract class Shape {
     //-----------------
     @Override
     public String toString() {
-         String rez = "Shape: " + name + "\n" + "Circumference: " + circumference() + "\n" + "Area: " + area();
+         String rez = "Shape: " + name + "\n" + "Circumference: " + circumference() + "\n" + "Area: " + area()+"\n";
          rez = rez.concat("---------------------");
          return rez;
 
