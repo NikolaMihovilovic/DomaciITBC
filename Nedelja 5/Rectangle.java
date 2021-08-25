@@ -3,7 +3,7 @@ package Sreda;
 public class Rectangle extends Shape {
     private double a, b;
 
-    public Rectangle(String name, double a, double b) {
+    public Rectangle(String name) {
         super(name);
         this.a = a;
         this.b = b;
