@@ -6,9 +6,9 @@ public class GrassPokemon extends Pokemon {
         super(name, type, health);
     }
     public String logAll(){
-        return attack().toString()
-                + defend().toString()
-                + wins().toString()
+        return attack().toString() + "\n"
+                + defend().toString() + "\n"
+                + wins().toString() + "\n"
                 + losesFrom().toString();
     }
 
