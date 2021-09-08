@@ -1,1 +1,2 @@
-
+SELECT * FROM ucenici
+WHERE godine > 15 AND prosek > 6.5
