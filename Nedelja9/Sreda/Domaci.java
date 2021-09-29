@@ -8,13 +8,13 @@ public class Domaci {
 
     //Sve brojeve deljive sa 3 uvecati za 2
 
-    public static List<Integer> div3plus2(List<Integer> numbers) {
+    public static List<Integer> div3Plus2(List<Integer> numbers) {
         return numbers.stream().map(x -> x % 3 == 0 ? x + 2 : x).collect(Collectors.toList());
     }
 
     //Izbaciti sve brojeve koji su deljivi sa 3 prilikom njihovog dupliranja
 
-    public static List<Integer> div3afterdoubled (List<Integer> numbers) {
+    public static List<Integer> div3AfterDoubled (List<Integer> numbers) {
         return numbers.stream().map(x -> x * 2).filter(x ->x % 3 == 0).collect(Collectors.toList());
     }
 
